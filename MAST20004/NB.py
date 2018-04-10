@@ -40,8 +40,8 @@ def printMD(pmf):
         else:
             even += j
 
-    print('total sum of odd possibilties from 0 to {}:{:3.4f}'.format(N, odd))
-    print('total sum of even possibilties from 0 to {}:{:3.4f}'.format(N, even))
+    print('total sum of odd possibilties from 0 to {}: {:3.4f}'.format(N, odd))
+    print('total sum of even possibilties from 0 to {}: {:3.4f}'.format(N, even))
 
 
 for z in range(N):

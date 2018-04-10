@@ -33,5 +33,6 @@ z  | p(Z=z)
 19 | 0.0053
 20 | 0.0042
 
-total sum of odd possibilties from 0 to 21:0.4814
-total sum of even possibilties from 0 to 21:0.5037
+total sum of odd possibilties from 0 to 21: 0.4814
+
+total sum of even possibilties from 0 to 21: 0.5037
