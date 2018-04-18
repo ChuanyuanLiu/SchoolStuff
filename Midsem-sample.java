@@ -84,7 +84,7 @@ class Admin extends User {
 	}
 }
 
-public class Exam {
+public class Midsem-sample {
 	
 	public static void main(String[] args) {
 		// question a
