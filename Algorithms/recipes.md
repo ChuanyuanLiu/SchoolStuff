@@ -1,6 +1,7 @@
-    
     ## C
+    
     ### Debug macro
+    
     ```c
     #define DEBUG 1
     #if DEBUG
