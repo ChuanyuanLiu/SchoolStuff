@@ -3,8 +3,6 @@
 
 ### Resources: 
 
-[Using "make" and writing Makefiles](https://www.cs.oberlin.edu/~kuperman/help/make.html) Highly recommended reading. ❤️
-
 [Makefile tutorial by Alex Allain](https://www.cprogramming.com/tutorial/makefiles.html) 
 
 [Makefile template by Maxwell](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/) 
@@ -119,6 +117,11 @@ rm -f part1.o arrayList.o part2.o arrayList.o part1 part2
 | ------ | ------------------ |
 | $@     | Name of the target |
 | $?     | List of dependents |
+
+
+### Set variables from commandline
+
+`make FILES=anything`
 
 ### Note:
 
