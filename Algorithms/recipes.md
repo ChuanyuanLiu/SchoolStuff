@@ -23,7 +23,9 @@ This is from Design of Algorithm material
 
 [Makefile template by Maxwell](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/) 
 
-### How are files compiled ![img](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/images/GCC_CompilationProcess.png)
+### How are files compiled 
+
+### ![img](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/images/GCC_CompilationProcess.png)
 
 From [Nanyang Technological University](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
