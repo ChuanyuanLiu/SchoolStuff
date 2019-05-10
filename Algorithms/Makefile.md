@@ -1,17 +1,17 @@
 
-## Makefile
+# Makefile
 
-### Resources: 
+## Resources: 
 
 [Makefile tutorial by Alex Allain](https://www.cprogramming.com/tutorial/makefiles.html) 
 
 [Makefile template by Maxwell](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/) 
 
-### How are files compiled ![img](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/images/GCC_CompilationProcess.png)
+## How are files compiled ![img](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/images/GCC_CompilationProcess.png)
 
 From [Nanyang Technological University](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
-### Template
+## Template
 
 **Aim**
 
@@ -62,7 +62,7 @@ runPart2: $(EXE2)
 	./$^ 
 ```
 
-### Example usages
+## Example usages
 
 **Make everything**
 
@@ -91,9 +91,9 @@ rm -f part1.o arrayList.o part2.o arrayList.o part1 part2
 
 
 
-### Explaination
+## Explaination
 
-#### Macros
+### Macros
 
 - 'Macros' that you can assign values to and reuse
 - Macros are not variables. They are just text replacement that behaviours just like macros in C
@@ -112,7 +112,7 @@ rm -f part1.o arrayList.o part2.o arrayList.o part1 part2
 | `DEPS = main.h`  | Set header file to `main.h`         |
 | `CFLAGS = -Wall` | Compiling flag set to `-Wall`       |
 
-#### Special Macros
+### Special Macros
 
 | Macros | meaning            |
 | ------ | ------------------ |
@@ -120,17 +120,17 @@ rm -f part1.o arrayList.o part2.o arrayList.o part1 part2
 | $^     | List of dependents |
 
 
-### Set variables from commandline
+## Set variables from commandline
 
 `make FILES=anything`
 
-### Note:
+## Note:
 
 Must follow indentation
 
 File must be called `Makefile` or `makefile` without any file types
 
-### Bugs:
+## Bugs:
 `Makefile:23: *** missing separator.  Stop.`
 
 > Makefile has a very stupid relation with tabs, all actions of every rule are identified by tabs ...... and No 4 spaces don't make a tab, only a tab makes a tab...
