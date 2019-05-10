@@ -132,16 +132,23 @@ File must be called `Makefile` or `makefile` without any file types
 
 ### Bugs:
 `Makefile:23: *** missing separator.  Stop.`
+
 > Makefile has a very stupid relation with tabs, all actions of every rule are identified by tabs ...... and No 4 spaces don't make a tab, only a tab makes a tab...
+
 > To check I use the command `cat -e -t -v makefile_name`
+
 Wrong, you have space instead of tabs
+
 ```bash
 clean :
    \rm $(EXE1)
 ```
+
 Right, `^I` shows that you used tabs in your makefile
+
 ```bash
 clean :
 ^I\rm $(EXE1)
 ```
+
 [makefile4 missing separator stackoverflow](https://stackoverflow.com/questions/16931770/makefile4-missing-separator-stop)
